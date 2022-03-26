@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(17, 195, 215);
+    text-align: center;
+}
+.center {
+    margin: auto;
+ 
+}
+.game-board{
+    background-color: dimgray;
+}
+.game-board td {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.board td:hover {
+    background-color: lightsalmon;
+}
+
